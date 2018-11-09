@@ -1,0 +1,32 @@
+{
+  "name": "HTLYTEST",
+  "version": "0.1.0",
+  "summary": "HTLYTESTHTLYTEST",
+  "description": "HTLYTESTHTLYTESTHTLYTESTHTLYTESTHTLYTESTHTLYTEST",
+  "homepage": "https://github.com/rebeccaBullTxt/HTLYTEST",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rebeccaBullTxt": "rebeccaBull@sina.com"
+  },
+  "source": {
+    "git": "https://github.com/rebeccaBullTxt/HTLYTEST.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTLYTEST/Classes/**/*",
+  "public_header_files": "HTLYTEST/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "WCDB": [
+
+    ]
+  }
+}

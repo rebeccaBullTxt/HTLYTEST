@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		1165B87020391DBBBFE5128E /* Pods_HTLYTEST_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTLYTEST_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		139B9413ABB1166ED31C4B63 /* HTLYTEST.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTLYTEST.podspec; path = ../HTLYTEST.podspec; sourceTree = "<group>"; };
+		139B9413ABB1166ED31C4B63 /* HTLYTEST.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTLYTEST.podspec; path = ../HTLYTEST.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41449626BF5941D052C368DB /* Pods-HTLYTEST_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTLYTEST_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTLYTEST_Tests/Pods-HTLYTEST_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C5451425C6AE94CB2314B22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C5451425C6AE94CB2314B22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		51937D0FD9D4A7F8DD8F6C5F /* Pods-HTLYTEST_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTLYTEST_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTLYTEST_Example/Pods-HTLYTEST_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HTLYTEST_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTLYTEST_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC7F71298E4D95BF9FE7FE8B /* Pods-HTLYTEST_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTLYTEST_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTLYTEST_Tests/Pods-HTLYTEST_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA5215F44D9E867E9F2DCD27 /* Pods_HTLYTEST_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTLYTEST_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDD7DF9C6009390FC9214ED8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDD7DF9C6009390FC9214ED8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE62C48676707B49563F49FF /* Pods-HTLYTEST_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTLYTEST_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTLYTEST_Example/Pods-HTLYTEST_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -303,13 +303,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HTLYTEST_Example/Pods-HTLYTEST_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/HTLYTEST/HTLYTEST.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLiteRepairKit/sqliterk.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTLYTEST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqliterk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/sqlcipher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

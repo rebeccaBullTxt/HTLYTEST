@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HTLYTEST'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HTLYTEST.'
+  s.summary          = 'HTLYTESTHTLYTEST'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'HTLYTESTHTLYTESTHTLYTESTHTLYTESTHTLYTESTHTLYTEST'
 
   s.homepage         = 'https://github.com/rebeccaBullTxt/HTLYTEST'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -36,7 +34,8 @@ TODO: Add long description of the pod here.
   #   'HTLYTEST' => ['HTLYTEST/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.public_header_files = 'HTLYTEST/Classes/**/*.h'
+   s.frameworks = 'UIKit'
+   s.dependency 'AFNetworking'
+   s.dependency 'WCDB'
 end
